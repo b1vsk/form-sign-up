@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="b1vsk">
+		<meta name="description" content="practicing html5 and css3 creating a registration form">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Form - Sign Up</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="image/google-forms.ico">
+	</head>
+	<body>
+		<main>
+			<div id="container">
+				<div id="title-form">
+					<h2>Sign Up</h2>
+				</div>
+				
+				<form action="#" method="POST" id="form">
+					<div class="input-text">
+						<label>Username</label>
+						<input type="text" placeholder="Username..." class="inputs" required>
+					</div>
+					
+					<div class="input-text">
+						<label>Password</label>
+						<input type="password" placeholder="Password..." class="inputs" required>
+					</div>
+			
+					<div class="input-text">
+						<label>Select your gender</label>
+						<select id="select-input" required>
+							<option value="man">Man</option>
+							<option value="women">Women</option>
+						</select>
+					</div>
+					
+					<div class="input-text">
+						<label>Birthday</label>
+						<input type="date" class="inputs" required>
+					</div>
+					<hr>
+					
+					<div id="sign-up-social-network">
+						<div id="google-sign-up">
+							<a href="https://www.google.com" rel="external" target="_blank" id="link-google"><img src="./image/google.png" alt="google icon"></a>
+						</div>
+						
+						<div id="facebook-sign-up">
+							<a href="https://www.facebook.com" rel="external" target="_blank" id="link-facebook"><img src="./image/facebook.png" alt="facebook icon" id="fb"></a>
+						</div>
+					</div>
+					
+					<input type="submit" value="Sign Up" id="btn-send">
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
